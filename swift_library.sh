@@ -74,7 +74,7 @@ let package = Package(
       name: "$foldername",
       path: "./Sources/$foldername",
       sources: [
-        $foldername.swift
+        "$foldername.swift"
       ],
       dependencies: [
       ]
